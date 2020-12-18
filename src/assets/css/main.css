@@ -50,7 +50,12 @@ body {
 }
 
 .land {
-  background-image: url(../img/land.jpg);
+  background: -webkit-linear-gradient(
+      rgba(191, 189, 189, 0.1),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/land.jpg);
+
   background-size: cover;
   background-position: top;
   height: 70vh;
@@ -187,6 +192,11 @@ body {
   padding-left: 10px;
 }
 
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 @media screen and (min-height: 1024px) {
   .nav-input {
     width: fit-content;
@@ -205,7 +215,22 @@ body {
 @media screen and (max-width: 768px) {
   html,
   body {
-    font-size: 5px;
+    /* font-size: 5px; */
+  }
+
+  .bottom-of-it {
+    text-align: center;
+  }
+  .footer-socials {
+    margin: auto;
+  }
+
+  .footer ul li {
+    border-bottom: 2px #fff !important;
+  }
+
+  .foot-input {
+    margin: auto;
   }
   .email-btn {
     background: #fa949d;

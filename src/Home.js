@@ -164,6 +164,7 @@ const App = () => {
         </nav>
 
         <div className="land">
+          <div className="banner"></div>
           <div>
             <button className="back-link" type="default">
               {"<"} Back
@@ -348,39 +349,39 @@ const App = () => {
                 </ul>
               </div>
               <div className="col-md-2 col-sm-12">
-                <ul className="list-unstyled">
-                  <li>Business</li>
-                  <li>Careers</li>
+                <ul className="list-unstyled footer-list-two">
+                  <li className="font-weight-bold">Business</li>
+                  <li className="font-weight-bold">Careers</li>
                 </ul>
               </div>
               <div className="col-md-2 col-sm-12">
                 <ul className="list-unstyled">
-                  <p>Investors</p>
+                  <p className="font-weight-bold">Investors</p>
                   <li>More In Investors</li>
                   <li>Financial Reporting</li>
                   <li>Shareholders</li>
                   <li>Announcements</li>
                 </ul>
                 <ul className="list-unstyled">
-                  <li>Contact Us</li>
+                  <li className="font-weight-bold">Contact Us</li>
                   <li>MTN Supplier</li>
                 </ul>
               </div>
               <div className="col-md-2 col-sm-12">
-                <p>Foundation</p>
+                <p className="font-weight-bold">Foundation</p>
               </div>
               <div className="col-md-2 col-sm-12">
-                <p>Events</p>
+                <p className="font-weight-bold">Events</p>
               </div>
               <div className="col-md-2 col-sm-12">
                 <ul className="list-unstyled">
-                  <p>Support</p>
+                  <p className="font-weight-bold"> Support</p>
                   <li>Help Center</li>
                   <li>Community</li>
                 </ul>
               </div>
             </div>
-            <div className="row">
+            <div className="row bottom-of-it">
               <div className="col-md-6 col-sm-12">
                 <ul className="list-unstyled footer-socials ">
                   <li className="">
@@ -401,6 +402,7 @@ const App = () => {
                 </ul>
                 <p className="footer-text">
                   © 2020 MTN Nigeria Communications PLC, All rights reserved.
+                  <br></br>
                   Privacy Policy & Data Protection
                 </p>
               </div>
