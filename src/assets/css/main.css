@@ -1,0 +1,219 @@
+html,
+body {
+  font-family: "Karla" sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --the-yellow: #fc0;
+}
+
+.custom-navbar {
+  background-color: var(--the-yellow) !important;
+  color: #000 !important;
+}
+
+.nav-input {
+  height: 40.29px;
+  /* border: 1px solid #c1c5e2;
+  border-radius: 50px; */
+  /* margin-left: 10%; */
+
+  border: 3px solid #000 !important;
+  border-radius: 20px;
+  /* padding-left: 30px !important; */
+  background-color: var(--the-yellow);
+}
+
+.display-box {
+  width: 70%;
+  height: auto;
+  /* height: 70vh; */
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav-input::placeholder {
+  color: #000;
+  padding-left: 10px;
+}
+
+.nav-link {
+  color: #000 !important;
+}
+
+.land {
+  background-image: url(../img/land.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 70vh;
+  color: #fff;
+  position: relative;
+  /* border-radius: 0 0 23% 23%; */
+  /* clip-path: ellipse(49% 38% at 50% 66%); */
+}
+
+.land h1 {
+  font-size: 36px;
+}
+
+.land-text {
+  position: absolute;
+  bottom: 50% !important;
+  transform: translateY(50%);
+  margin: 20px;
+}
+
+.back-link {
+  z-index: 3 !important;
+  position: absolute !important;
+  top: 50px;
+  left: 20px;
+
+  font-weight: 500;
+  background-color: #fc0;
+  border: none;
+  border-radius: 24px;
+  color: #000;
+  height: 40px;
+  margin: 0 0 10px;
+  padding: 10px 16px;
+  min-width: auto;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1 !important;
+  letter-spacing: 0;
+}
+
+.become-sect {
+  background-color: #f2f2f2;
+  padding: 7rem 0;
+}
+
+.download-card {
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 0 2px #f2f2f2;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+  margin-top: 2rem;
+  background: #fff;
+}
+
+.download-card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.mtn-svg-fill--white {
+  /* display: none; */
+  fill: red;
+  width: 20%;
+  position: absolute;
+  bottom: 7r;
+  left: 0;
+}
+
+.download-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--the-yellow);
+  position: relative;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding-top: 3rem;
+}
+
+.footer ul li {
+  padding-top: 1rem;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: row;
+}
+.footer-socials li {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.footer-socials li:hover {
+  color: var(--the-yellow);
+}
+
+.footer-socials li i {
+  color: #fff;
+}
+
+.footer-text {
+  font-size: 11px;
+  color: #3f3f43;
+}
+
+.foot-input {
+  /* height: 52.29px;
+  border: 1px solid #c1c5e2;
+  border-radius: 50px;
+  /* margin-left: 10%; */
+
+  width: 200px;
+  margin-right: 0;
+  border: 2px solid #fff !important;
+  border-radius: 20px;
+  right: 10px;
+  padding-left: 30px !important;
+  background-color: #000;
+}
+.foot-input::placeholder {
+  color: #fff;
+  padding-left: 10px;
+}
+
+@media screen and (min-height: 1024px) {
+  .nav-input {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    font-size: 5px;
+  }
+  .email-btn {
+    background: #fa949d;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    color: #fff;
+    height: 7rem;
+    width: 10rem;
+    font-size: 1.8rem;
+  }
+}
