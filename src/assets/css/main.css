@@ -29,6 +29,11 @@ body {
   background-color: var(--the-yellow);
 }
 
+.nav-input:active,
+.nav-input:focus {
+  background-color: var(--the-yellow);
+}
+
 .display-box {
   width: 70%;
   height: auto;
@@ -61,6 +66,9 @@ body {
   height: 70vh;
   color: #fff;
   position: relative;
+  border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh;
+  -moz-border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh;
+  -webkit-border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh;
   /* border-radius: 0 0 23% 23%; */
   /* clip-path: ellipse(49% 38% at 50% 66%); */
 }
@@ -100,7 +108,30 @@ body {
 
 .become-sect {
   background-color: #f2f2f2;
-  padding: 7rem 0;
+  padding: 0 0 7rem 0;
+  position: relative;
+  top: 5rem;
+  /* height: 70vh; */
+  overflow: hidden;
+  border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh;
+  /* -moz-border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh; */
+  -webkit-border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh;
+}
+.first-curve {
+  border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh;
+  /* -moz-border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh; */
+  -webkit-border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh;
+  position: relative;
+  top: 5rem;
+}
+
+.curve-card {
+  height: 10vh;
+  width: inherit;
+  background: #fff;
+  border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh;
+  /* -moz-border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh; */
+  -webkit-border-radius: 0% 0% 200vh 200vh / 0% 0% 20vh 20vh;
 }
 
 .download-card {
@@ -145,6 +176,9 @@ body {
   background: #000;
   color: #fff;
   padding-top: 3rem;
+  /* border-radius: 200vh 200vh 0% 0% / 20vh 20vh 0% 0%;
+  -moz-border-radius: 200vh 200vh 0% 0% / 20vh 20vh 0% 0%;
+  -webkit-border-radius: 200vh 200vh 0% 0% / 20vh 20vh 0% 0%; */
 }
 
 .footer ul li {
@@ -192,7 +226,7 @@ body {
   padding-left: 10px;
 }
 
-.footer-list {
+.footer-list-two {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -240,5 +274,19 @@ body {
     height: 7rem;
     width: 10rem;
     font-size: 1.8rem;
+  }
+
+  .footer-list li {
+    display: none !important;
+  }
+  .footer-list p {
+    /* border-bottom: 2px #fff solid;
+    width: 100%; */
+  }
+  .footer-divider {
+    border-color: #fff !important;
+    margin: 0;
+    padding: 0.3rem;
+    width: 100vw;
   }
 }

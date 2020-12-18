@@ -157,7 +157,7 @@ const App = () => {
                 type="text"
                 placeholder="Search"
                 // onChange={(e) => setGify(e.target.value)}
-                aria-label="Search"
+                aria-label="Search..."
               />
             </div>
           </div>
@@ -213,7 +213,7 @@ const App = () => {
       </div>
 
       <main>
-        <div className="container web-container mt-5">
+        <div className="container web-container mt-5 ">
           <h3>Existing MTN supplier</h3>
           <p>
             MTN has a responsibility to ensure that our business practices are
@@ -240,15 +240,15 @@ const App = () => {
           </p>
         </div>
 
-        <div className="web-container container pt-5 pb-5">
+        <div className="web-container container pt-5 pb-5 first-curve">
           <div className="row download-flex">
             <div className="col-md-6 col-sm-12">
               <div className="download-card">
                 <div className="d-flex justify-content-between">
                   <div>
-                    <p>Supplier password Notice</p>
+                    <p className="font-weight-bold">Supplier password Notice</p>
                     <figcaption>
-                      <p className="font-weight-bold">(3.7Mb)</p>
+                      <p>(3.7Mb)</p>
                     </figcaption>
                   </div>
                   <div className="circle">
@@ -261,9 +261,9 @@ const App = () => {
               <div className="download-card">
                 <div className="d-flex justify-content-between">
                   <div>
-                    <p>Supplier password Notice</p>
+                    <p className="font-weight-bold">Supplier password Notice</p>
                     <figcaption>
-                      <p className="font-weight-bold">(3.7Mb)</p>
+                      <p>(3.7Mb)</p>
                     </figcaption>
                   </div>
                   <div className="circle">
@@ -275,6 +275,7 @@ const App = () => {
           </div>
         </div>
         <div className="become-sect">
+          <div className="curve-card"></div>
           {/* <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -293,7 +294,7 @@ const App = () => {
               class="mtn-svg-fill--white"
             ></path>
           </svg> */}
-          <div className="web-container container">
+          <div className="web-container container pt-5">
             <h3>Become An MTN Suplier</h3>
             <p>
               If you believe you can join MTN’s vision to make our customers
@@ -305,9 +306,11 @@ const App = () => {
                 <div className="download-card">
                   <div className="d-flex justify-content-between">
                     <div>
-                      <p>Supplier password Notice</p>
+                      <p className="font-weight-bold">
+                        Supplier password Notice
+                      </p>
                       <figcaption>
-                        <p className="font-weight-bold">(3.7Mb)</p>
+                        <p>(3.7Mb)</p>
                       </figcaption>
                     </div>
                     <div className="circle">
@@ -322,7 +325,7 @@ const App = () => {
                     <div>
                       <p>Supplier password Notice</p>
                       <figcaption>
-                        <p className="font-weight-bold">(3.7Mb)</p>
+                        <p>(3.7Mb)</p>
                       </figcaption>
                     </div>
                     <div className="circle">
@@ -336,46 +339,54 @@ const App = () => {
         </div>
         <footer className="footer">
           <div className="web-container container">
-            <div className="row">
+            <div className="row pt-5">
               <div className="col-md-2 col-sm-12">
-                <ul className="list-unstyled">
+                <ul className="list-unstyled footer-list">
                   <p className="font-weight-bold">Personal</p>
+                  <hr className="footer-divider"></hr>
                   <li>Services</li>
                   <li>Data</li>
                   <li>Devices</li>
                   <li>Getting Started</li>
                   <li>myMTN App</li>
                   <p className="font-weight-bold">About Us</p>
+                  <hr className="footer-divider"></hr>
                 </ul>
               </div>
               <div className="col-md-2 col-sm-12">
-                <ul className="list-unstyled footer-list-two">
-                  <li className="font-weight-bold">Business</li>
+                <ul className="list-unstyled footer-list-two footer-list">
+                  <p className="font-weight-bold">Business</p>
+                  <hr className="footer-divider"></hr>
                   <li className="font-weight-bold">Careers</li>
                 </ul>
               </div>
               <div className="col-md-2 col-sm-12">
-                <ul className="list-unstyled">
+                <ul className="list-unstyled footer-list">
                   <p className="font-weight-bold">Investors</p>
+                  <hr className="footer-divider"></hr>
                   <li>More In Investors</li>
                   <li>Financial Reporting</li>
                   <li>Shareholders</li>
                   <li>Announcements</li>
                 </ul>
-                <ul className="list-unstyled">
-                  <li className="font-weight-bold">Contact Us</li>
+                <ul className="list-unstyled footer-list">
+                  <p className="font-weight-bold">Contact Us</p>
+                  <hr className="footer-divider"></hr>
                   <li>MTN Supplier</li>
                 </ul>
               </div>
-              <div className="col-md-2 col-sm-12">
+              <div className="col-md-2 col-sm-12 footer-list">
                 <p className="font-weight-bold">Foundation</p>
+                <hr className="footer-divider"></hr>
               </div>
-              <div className="col-md-2 col-sm-12">
+              <div className="col-md-2 col-sm-12 footer-list">
                 <p className="font-weight-bold">Events</p>
+                <hr className="footer-divider"></hr>
               </div>
               <div className="col-md-2 col-sm-12">
-                <ul className="list-unstyled">
+                <ul className="list-unstyled footer-list">
                   <p className="font-weight-bold"> Support</p>
+                  <hr className="footer-divider"></hr>
                   <li>Help Center</li>
                   <li>Community</li>
                 </ul>
