@@ -32,6 +32,7 @@ body {
 .nav-input:active,
 .nav-input:focus {
   background-color: var(--the-yellow);
+  border: 2px solid #000;
 }
 
 .display-box {
