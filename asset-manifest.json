@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sultan-test/static/css/main.fa69f511.chunk.css",
+    "main.js": "/sultan-test/static/js/main.49ed75e3.chunk.js",
+    "main.js.map": "/sultan-test/static/js/main.49ed75e3.chunk.js.map",
+    "runtime-main.js": "/sultan-test/static/js/runtime-main.8d7f69ad.js",
+    "runtime-main.js.map": "/sultan-test/static/js/runtime-main.8d7f69ad.js.map",
+    "static/js/2.2d1ae007.chunk.js": "/sultan-test/static/js/2.2d1ae007.chunk.js",
+    "static/js/2.2d1ae007.chunk.js.map": "/sultan-test/static/js/2.2d1ae007.chunk.js.map",
+    "static/js/3.8e957f87.chunk.js": "/sultan-test/static/js/3.8e957f87.chunk.js",
+    "static/js/3.8e957f87.chunk.js.map": "/sultan-test/static/js/3.8e957f87.chunk.js.map",
+    "index.html": "/sultan-test/index.html",
+    "static/css/main.fa69f511.chunk.css.map": "/sultan-test/static/css/main.fa69f511.chunk.css.map",
+    "static/js/2.2d1ae007.chunk.js.LICENSE.txt": "/sultan-test/static/js/2.2d1ae007.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/sultan-test/static/media/land.92058978.jpg",
+    "static/media/mtn-logo-nav.ec43d048.svg": "/sultan-test/static/media/mtn-logo-nav.ec43d048.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d7f69ad.js",
+    "static/js/2.2d1ae007.chunk.js",
+    "static/css/main.fa69f511.chunk.css",
+    "static/js/main.49ed75e3.chunk.js"
+  ]
+}
